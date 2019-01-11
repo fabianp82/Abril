@@ -1,4 +1,6 @@
+import 'package:abril_app/review.dart';
 import 'package:flutter/material.dart';
+
 
 class DescripcionPlace extends StatelessWidget{
 
@@ -13,7 +15,7 @@ class DescripcionPlace extends StatelessWidget{
     // TODO: implement build
     final start = Container (
       margin: EdgeInsets.only(
-          top:323.0,
+          top:263.0,
 
           right: 3.0
       ),
@@ -25,7 +27,7 @@ class DescripcionPlace extends StatelessWidget{
 
     final start_half = Container (
       margin: EdgeInsets.only(
-          top:323.0,
+          top:263.0,
 
           right: 3.0
       ),
@@ -37,7 +39,7 @@ class DescripcionPlace extends StatelessWidget{
 
     final start_border = Container (
       margin: EdgeInsets.only(
-          top:323.0,
+          top:263.0,
 
           right: 3.0
       ),
@@ -51,7 +53,7 @@ class DescripcionPlace extends StatelessWidget{
         children: <Widget>[
           Container(
             margin: EdgeInsets.only(
-              top:320.0,
+              top:260.0,
               left: 20.0,
               right: 20.0
             ),
@@ -69,7 +71,7 @@ class DescripcionPlace extends StatelessWidget{
               start,
               start,
               start,
-              start,
+              start_half,
               start_half
             ],
           )
@@ -99,7 +101,8 @@ class DescripcionPlace extends StatelessWidget{
     final Resultado = Column(
           children: <Widget>[
             title_start,
-            Descipcion
+            Descipcion,
+
           ],
 
     );
