@@ -5,6 +5,7 @@ class Review extends StatelessWidget{
 
   String pathImage="assets/images/Perfil.jpg";
   String pathImage2="assets/images/Perfil.jpg";
+  String pathImage4="Hace un push";
   Review(this.pathImage);
 
   @override
