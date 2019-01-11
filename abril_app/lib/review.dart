@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 class Review extends StatelessWidget{
 
   String pathImage="assets/images/Perfil.jpg";
-
-  Review(this.pathImage)
+  String pathImage2="assets/images/Perfil.jpg";
+  Review(this.pathImage);
 
   @override
   Widget build(BuildContext context) {
