@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:abril_app/floating_action_button_green.dart';
+
 
 class CardImage extends StatelessWidget{
 
@@ -8,7 +10,6 @@ class CardImage extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-
 
 
     final card = Container(
@@ -36,7 +37,13 @@ class CardImage extends StatelessWidget{
           ]
       ),
     );
-    return card;
+    return Stack(
+      alignment: Alignment(0.9, 1.1),
+      children: <Widget>[
+        card,
+        FloatingActionButtonGreen()
+      ]
+    );
   }
 
 }

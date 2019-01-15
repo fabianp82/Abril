@@ -1,3 +1,5 @@
+import 'package:abril_app/abril_trips.dart';
+import 'package:abril_app/abril_trips_cupertino.dart';
 import 'package:abril_app/gradient_back.dart';
 import 'package:abril_app/review_list.dart';
 import 'package:flutter/material.dart';
@@ -15,20 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
-        body:
-              Stack(
-                children: <Widget>[
-                  ListView(
-                    children: <Widget>[
-                      DescripcionPlace("Fabian Papp",5,"Try running your application with flutter run. You'll see the application has a blue toolbar. Then, without quitting the app, try.  Try running your application with flutter run. You'll see the application has a blue toolbar. Then, without quitting the app, try Try running your application with flutter run. You'll see the application has a blue toolbar. Then, without quitting the app, try Try running your application with flutter run. You'll see the application has a blue toolbar. Then, without quitting the app, try"),
-                      ReviewList()
-                    ],
-                  ),
-                  HeaderAppBar()
-                ],
-              )
-      )
+      home:AbrilTrips()
     );
   }
 }
