@@ -68,6 +68,15 @@ flutter:
   # see https://flutter.io/custom-fonts/#from-packages
   assets:
     - assets/images/Perfil.jpg
+    - assets/images/ann.jpg
+    - assets/images/beach_palm.jpeg
+    - assets/images/beach.jpeg
+    - assets/images/girl.jpg
+    - assets/images/mountain.jpeg
+    - assets/images/mountain_stars.jpeg
+    - assets/images/people.jpg
+    - assets/images/river.jpeg
+    - assets/images/sunset.jpeg
 
 
   fonts:

@@ -1,5 +1,6 @@
 import 'package:abril_app/review.dart';
 import 'package:flutter/material.dart';
+import 'package:abril_app/button_purple.dart';
 
 
 class DescripcionPlace extends StatelessWidget{
@@ -15,7 +16,7 @@ class DescripcionPlace extends StatelessWidget{
     // TODO: implement build
     final start = Container (
       margin: EdgeInsets.only(
-          top:263.0,
+          top:363.0,
 
           right: 3.0
       ),
@@ -27,7 +28,7 @@ class DescripcionPlace extends StatelessWidget{
 
     final start_half = Container (
       margin: EdgeInsets.only(
-          top:263.0,
+          top:363.0,
 
           right: 3.0
       ),
@@ -39,7 +40,7 @@ class DescripcionPlace extends StatelessWidget{
 
     final start_border = Container (
       margin: EdgeInsets.only(
-          top:263.0,
+          top:363.0,
 
           right: 3.0
       ),
@@ -53,7 +54,7 @@ class DescripcionPlace extends StatelessWidget{
         children: <Widget>[
           Container(
             margin: EdgeInsets.only(
-              top:260.0,
+              top:360.0,
               left: 20.0,
               right: 20.0
             ),
@@ -99,10 +100,11 @@ class DescripcionPlace extends StatelessWidget{
     );
 
     final Resultado = Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             title_start,
             Descipcion,
-
+            ButtonPurple("Navigate")
           ],
 
     );

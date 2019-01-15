@@ -2,6 +2,7 @@ import 'package:abril_app/gradient_back.dart';
 import 'package:abril_app/review_list.dart';
 import 'package:flutter/material.dart';
 import 'description_place.dart';
+import 'package:abril_app/header_appbar.dart';
 
 void main() => runApp(MyApp());
 
@@ -20,11 +21,11 @@ class MyApp extends StatelessWidget {
                 children: <Widget>[
                   ListView(
                     children: <Widget>[
-                      DescripcionPlace("Fabian Papp",5,"Try running your application with flutter run. You'll see the application has a blue toolbar. Then, without quitting the app, try"),
+                      DescripcionPlace("Fabian Papp",5,"Try running your application with flutter run. You'll see the application has a blue toolbar. Then, without quitting the app, try.  Try running your application with flutter run. You'll see the application has a blue toolbar. Then, without quitting the app, try Try running your application with flutter run. You'll see the application has a blue toolbar. Then, without quitting the app, try Try running your application with flutter run. You'll see the application has a blue toolbar. Then, without quitting the app, try"),
                       ReviewList()
                     ],
                   ),
-                  GradientBack("5555555555555555555555555")
+                  HeaderAppBar()
                 ],
               )
       )
